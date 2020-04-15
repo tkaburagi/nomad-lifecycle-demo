@@ -1,0 +1,8 @@
+spring:
+  application:
+    name:db-app
+  datasource:
+    url: jdbc:mysql://{{YOURIP}}:3306/mysql?useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: rooooot
